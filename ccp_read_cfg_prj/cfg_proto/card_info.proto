@@ -1,0 +1,18 @@
+option optimize_for = CODE_SIZE;
+
+message card_info {
+    message Row {
+       optional uint32 ID_card = 1;
+       optional string name_card = 2;
+       optional uint32 quality = 3;
+       optional uint32 bind_type = 4;
+       optional uint32 num_piled = 5;
+       optional uint32 decompose = 6;
+       optional string des = 7;
+       optional string icon_name = 8;
+       optional string img_name = 9;
+
+    }
+
+    repeated Row rows = 1;
+}

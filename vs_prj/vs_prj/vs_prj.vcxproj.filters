@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\ccp_read_cfg_prj\main.cc" />
+    <ClCompile Include="..\..\ccp_read_cfg_prj\mysql_connecter.cc" />
+    <ClCompile Include="..\..\ccp_read_cfg_prj\proto_test.cc" />
+    <ClCompile Include="..\..\ccp_read_cfg_prj\proto\achieve.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ccp_read_cfg_prj\proto\card_info.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ccp_read_cfg_prj\cfg_mgr\card_info.cpp">
+      <Filter>cfg_mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ccp_read_cfg_prj\cfg_mgr\test_cfg_mgr.cc">
+      <Filter>cfg_mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ccp_read_cfg_prj\cfg_mgr\achieve.cpp">
+      <Filter>cfg_mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ccp_read_cfg_prj\cfg_mgr\cfg_mgr.cpp">
+      <Filter>cfg_mgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ccp_read_cfg_prj\mysql_connecter.h" />
+    <ClInclude Include="..\..\ccp_read_cfg_prj\proto_test.h" />
+    <ClInclude Include="..\..\ccp_read_cfg_prj\proto\card_info.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ccp_read_cfg_prj\proto\achieve.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ccp_read_cfg_prj\cfg_mgr\card_info.h">
+      <Filter>cfg_mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ccp_read_cfg_prj\cfg_mgr\test_cfg_mgr.h">
+      <Filter>cfg_mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ccp_read_cfg_prj\cfg_mgr\achieve.h">
+      <Filter>cfg_mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ccp_read_cfg_prj\cfg_mgr\cfg_mgr.h">
+      <Filter>cfg_mgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="proto">
+      <UniqueIdentifier>{16c88b1e-da0a-4484-9b93-1b6763f8aef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cfg_mgr">
+      <UniqueIdentifier>{3e44131e-77b8-4ceb-bd4b-81cb4ff30eec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\ccp_read_cfg_prj\proto\achieve.proto">
+      <Filter>proto</Filter>
+    </None>
+    <None Include="..\..\ccp_read_cfg_prj\proto\card_info.proto">
+      <Filter>proto</Filter>
+    </None>
+  </ItemGroup>
+</Project>

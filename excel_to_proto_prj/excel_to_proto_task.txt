@@ -1,0 +1,24 @@
+
+python 导出配置:
+{
+	excel 导出 proto
+	proto --> proto.py
+	excel, proto.py  --> bytes
+	
+	excel --> cpp read code(need proto bytes)
+	excel --> lua read code
+	
+	
+	输出出错，警告日志
+	{
+		非法类型名
+		重复标示符
+	}
+	支持可选3个key
+	C++读取接口输入参数 fun(table_name, key1, ... )就能返回 数据
+	生成lua,不用proto
+	
+	处理excel 数组
+	 参考暴风网络数组
+	 区分客户端，服务器，所有，3中域
+}

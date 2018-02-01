@@ -1,0 +1,23 @@
+option optimize_for = CODE_SIZE;
+
+message achieve {
+    message Row {
+       optional uint32 Id = 1;
+       optional string Name = 2;
+       optional uint32 Order_id = 3;
+       optional string Des = 4;
+       optional uint32 job_type = 5;
+       optional uint32 Type = 6;
+       optional uint32 Show = 7;
+       optional uint32 Show_data = 8;
+       optional uint32 Complete = 9;
+       optional uint32 c_para1 = 10;
+       optional uint32 c_para2 = 11;
+       optional uint32 Title_id = 12;
+       optional uint32 drop_id = 13;
+       optional uint32 point = 14;
+
+    }
+
+    repeated Row rows = 1;
+}

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1065e5b9-1bed-4134-9447-4208c81c0c60}</ProjectGuid>
+    <ProjectHome>..\..\excel_to_proto_prj\py\</ProjectHome>
+    <StartupFile>BuildAll.py</StartupFile>
+    <SearchPath>..\proto_py\</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Compile Include="base.py" />
+    <Compile Include="BuildAll.py" />
+    <Compile Include="BuildBytes.py" />
+    <Compile Include="BuildCpp.py" />
+    <Compile Include="BuildCppCfgFile.py" />
+    <Compile Include="BuildCppCfgMgrFile.py" />
+    <Compile Include="BuildLua.py" />
+    <Compile Include="BuildProto.py" />
+    <Compile Include="cfg.py" />
+    <Compile Include="test.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
