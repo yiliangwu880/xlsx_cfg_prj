@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib/liblib_prj.a  CMakeFiles/lib_prj.dir/src/vtime.cc.o
+/usr/bin/ranlib ../lib/liblib_prj.a

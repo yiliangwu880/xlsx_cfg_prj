@@ -1,0 +1,5 @@
+/data/share/xlsx_cfg_prj/Debug/ccp_read_cfg_prj/CMakeFiles/all_unity.dir
+/data/share/xlsx_cfg_prj/Debug/ccp_read_cfg_prj/CMakeFiles/clean_cotire.dir
+/data/share/xlsx_cfg_prj/Debug/lib_prj/CMakeFiles/lib_prj.dir
+/data/share/xlsx_cfg_prj/Debug/ccp_read_cfg_prj/CMakeFiles/main_prj.dir
+/data/share/xlsx_cfg_prj/Debug/ccp_read_cfg_prj/CMakeFiles/main_prj_unity.dir

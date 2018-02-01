@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/share/xlsx_cfg_prj/lib_prj/src/vtime.cc
+vtime.h
+/data/share/xlsx_cfg_prj/lib_prj/src/vtime.h
+stdio.h
+-
+
+/data/share/xlsx_cfg_prj/lib_prj/src/vtime.h
+
